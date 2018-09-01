@@ -6,9 +6,9 @@ def initialize (name)
   @roster = {}
 end
 
-I thought that because it isa constant it needs to be in caps?
 
 def add_student(name, grade)
-  ROSTER << student 
+  roster[grade] ||= []  
+  roster[grade] << name
 end 
 end 
