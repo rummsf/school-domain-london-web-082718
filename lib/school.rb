@@ -13,6 +13,5 @@ def add_student(name, grade)
 end 
 
 roster[grade]
-is read a type of return?
 
 end 
