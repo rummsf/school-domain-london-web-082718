@@ -22,4 +22,5 @@ def sort
     sorted[grade] = name.sort 
   end
   sorted 
+end
 end 
